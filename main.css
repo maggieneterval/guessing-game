@@ -1,0 +1,33 @@
+body {
+	font-family: 'Century Gothic', sans-serif;
+	font-color: #161032;
+	background: linear-gradient(to right, #faff81, #ffc53a);
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 50px;
+}
+
+input, button, p {
+	width: 100%;
+	font-size: 24px;
+	padding: 40px 5px;
+	border: 5px outset #161032;
+	text-align: center;
+}
+
+.style1 {
+	background: linear-gradient(#662E9B, #6247AA);
+	color: #C0C0C0;
+}
+
+.style2 {
+	background: linear-gradient(#F9A03F, #F9A03F);
+}
+
+.style3 {
+	background: #161032;
+	color: #C0C0C0;
+}
