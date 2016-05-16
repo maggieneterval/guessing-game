@@ -12,10 +12,11 @@ h1 {
 
 input, button, p {
 	width: 100%;
-	font-size: 24px;
-	padding: 40px 5px;
+	font-size: 22px;
+	padding: 25px 5px;
 	border: 5px outset #161032;
 	text-align: center;
+	margin: 10px;
 }
 
 .style1 {
@@ -30,4 +31,12 @@ input, button, p {
 .style3 {
 	background: #161032;
 	color: #C0C0C0;
+}
+
+.winner {
+	background-image: url("party.jpg");
+}
+
+.fire {
+	background-image: url("fire.jpg");
 }

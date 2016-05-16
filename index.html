@@ -15,16 +15,31 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<input class="style1" id="userInput" type="number" min="1" max="100" step="1" required autofocus placeholder="Guess a number 1-100"/>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6">
 					<button class="style2" id="submitButton" type ="button">
 						<span class="glyphicon glyphicon-ok"></span> Submit your guess!
 					</button>
 				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<p class="style1">Previous guesses:<span id="prevGuesses"></span></p>
+				</div>
 				<div class="col-md-4">
-					<p class="style1" id="guessesLeft">Guesses Remaining: 5</p>
+					<p class="style1" id="guessesLeft">Guesses Remaining: <span id="numGuesses">5</span></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9">
+					<p class="style1" id="message">Good luck!</p>
+				</div>
+				<div class="col-md-3">
+					<button class="style2" id="refreshButton" type="button">
+						<span class="glyphicon glyphicon-refresh"></span> Start new game
+					</button>
 				</div>
 			</div>
 			<div class="row">
@@ -33,13 +48,8 @@
 						<span class="glyphicon glyphicon-question-sign"></span> Give me a hint
 					</button>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-8">
 					<p class="style1" id="hintText">Hint:</p>
-				</div>
-				<div class="col-md-4">
-					<button class="style2" id="refreshButton" type="button">
-						<span class="glyphicon glyphicon-refresh"></span> Start new game
-					</button>
 				</div>
 			</div>
 		</div>
